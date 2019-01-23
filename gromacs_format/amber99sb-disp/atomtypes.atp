@@ -1,5 +1,5 @@
 Br                79.90000	; bromine
-C                 12.01000	; sp2 C carbonyl group 
+C                 12.01000	; sp2 C carbonyl group
 CA                12.01000	; sp2 C pure aromatic (benzene)
 CB                12.01000	; sp2 aromatic C, 5&6 membered ring junction
 CC                12.01000	; sp2 aromatic C, 5 memb. ring HIS
@@ -37,7 +37,7 @@ NB                14.01000	; sp2 N in 5 memb.ring w/LP (HIS,ADE,GUA)
 NC                14.01000	; sp2 N in 6 memb.ring w/LP (ADE,GUA)
 N2                14.01000	; sp2 N in amino groups
 N3                14.01000	; sp3 N for charged amino groups (Lys, etc)
-N*                14.01000	; sp2 N 
+N*                14.01000	; sp2 N
 O                 16.00000	; carbonyl group oxygen
 OW                16.00000	; oxygen in TIP3P water
 OH                16.00000	; oxygen in hydroxyl group
@@ -59,6 +59,12 @@ HW_tip4pew         1.00800      ; tip4pEW HW
 OW_tip4pew        16.00000      ; tip4pEW OW
 HW_tip4p           1.00800      ; tip4p HW
 OW_tip4p          16.00000      ; tip4p OW
+HW_tip405          1.00800      ; tip4p05 HW
+OW_tip405         16.00000      ; tip4p05 OW
+HW_tip4pd          1.00800      ; tip4pd HW
+OW_tip4pd         16.00000      ; tip4pd OW
+HW_a99sbd          1.00800      ; A99SB-disp water HW
+OW_a99sbd         16.00000      ; A99SB-disp water OW
 HW_tip5p           1.00800      ; tip5p HW
 OW_tip5p          16.00000      ; tip5p OW
 MW                 0.00000      ; Virtual site for tip4p/5p water point charge
