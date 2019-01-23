@@ -23,6 +23,7 @@
   C  NA         1    0.13880   349782.4 ; 7,(1986),230; GUA.URA
   C  NC         1    0.13580   382417.6 ; 7,(1986),230; CYT
   C  O          1    0.12290   476976.0 ; 7,(1986),230; AA,CYT,GUA,THY,URA
+  C  OC         1    0.12290   476976.0 ; 7,(1986),230; AA,CYT,GUA,THY,URA ; (a99sb-disp)
   C  O2         1    0.12500   548940.8 ; 7,(1986),230; GLU,ASP
   C  OH         1    0.13640   376560.0 ; 7,(1986),230; TYR
   CA CA         1    0.14000   392459.2 ; 7,(1986),230; BENZENE,PHE,TRP,TYR
@@ -128,17 +129,21 @@
 HW  OW  HW           1   104.520    836.800 ; TIP3P water
 HW  HW  OW           1   127.740      0.000 ; (found in crystallographic water with 3 bonds)
 C   C   O            1   120.000    669.440 ; new99
+C   C   OC           1   120.000    669.440 ; new99 ; (a99sb-disp)
 C   C   OH           1   120.000    669.440 ; new99
 CT  C   CT           1   117.000    527.184 ; new99
 CT  C   OS           1   115.000    669.440 ; new99
 O   C   OS           1   125.000    669.440 ; new99
+OC  C   OS           1   125.000    669.440 ; new99 ; (a99sb-disp)
 H4  C   C            1   120.000    418.400 ; new99
 H4  C   CM           1   115.000    418.400 ; new99
 H4  C   CT           1   115.000    418.400 ; new99
 H4  C   O            1   120.000    418.400 ; new99
+H4  C   OC           1   120.000    418.400 ; new99 ; (a99sb-disp)
 H4  C   OH           1   120.000    418.400 ; new99
 H5  C   N            1   120.000    418.400 ; new99
 H5  C   O            1   119.000    418.400 ; new99
+H5  C   OC           1   119.000    418.400 ; new99 ; (a99sb-disp)
 H5  C   OH           1   107.000    418.400 ; new99
 H5  C   OS           1   107.000    418.400 ; new99
 CA  CA  OH           1   120.000    585.760 ; new99
@@ -376,6 +381,16 @@ HS  SH  HS           1    92.070    292.880 ; AA cys
 F   CT  F            1   109.100    644.336 ; JCC,13,(1992),963;
 F   CT  H1           1   109.500    418.400 ; new99
 N   C   N            1   120.000    585.760 ; Added for Urea (same as N2-CA-N2) - EJS
+CB  C   OC           1   128.800    669.440 ; ; (a99sb-disp)
+CM  C   OC           1   125.300    669.440 ; ; (a99sb-disp)
+CT  C   OC           1   120.400    669.440 ; ; (a99sb-disp)
+N*  C   OC           1   120.900    669.440 ; ; (a99sb-disp)
+NA  C   OC           1   120.600    669.440 ; ; (a99sb-disp)
+NC  C   OC           1   122.500    669.440 ; ; (a99sb-disp)
+N   C   OC           1   122.900    669.440 ; AA general ; (a99sb-disp)
+O   C   OC           1   126.000    669.440 ; AA COO- terminal residues ; (a99sb-disp)
+OC  C   OC           1   126.000    669.440 ; AA COO- terminal residues ; (a99sb-disp)
+OC  C   OH           1   120.000    669.440 ; ; (a99sb-disp)
 
 [ dihedraltypes ]
 ;i  j   k  l	 func      phase      kd      pn
@@ -387,7 +402,7 @@ CA  CA  CA  Br       4      180.00     4.60240     2 	; new99
 CM  H4  C   O        4      180.00     4.60240     2 	; new99
 C   CT  N   H        4      180.00     4.60240     2 	; new99
 C   CT  N   HN       4      180.00     4.60240     2  ; new99 ; (a99sb-disp)
-C   CT  N   O        4      180.00     4.60240     2    ; new99
+CM  H4  C   O        4      180.00     4.60240     2  ; new99
 CB  CK  N*  CT       4      180.00     4.18400     2	;
 CK  CB	N*  CT	     4      180.00     4.18400     2    ;
 C   CM  N*  CT       4      180.00     4.18400     2	; dac guess, 9/94
@@ -432,6 +447,13 @@ X   X   CM  H4       4      180.00     4.60240     2	;
 X   X   CM  HA       4      180.00     4.60240     2	;
 X   X   CA  H4       4      180.00     4.60240     2	; bsd.on C6H6 nmodes
 X   X   CA  H5       4      180.00     4.60240     2	; bsd.on C6H6 nmodes
+H5  OC  C   OH       4      180.00     4.60240     2  ; new99 ; (a99sb-disp)
+H5  OC  C   OS       4      180.00     4.60240     2  ; new99 ; (a99sb-disp)
+CM  H4  C   OC       4      180.00     4.60240     2  ; new99 ; (a99sb-disp)
+CM  H4  C   OC       4      180.00     4.60240     2  ; new99 ; (a99sb-disp)
+CT  OC  C   OH       4      180.00    43.93200     2  ; ; (a99sb-disp)
+N   N   C   OC       4      180.00    43.93200     2  ; urea ; (a99sb-disp)
+X   X   C   OC       4      180.00    43.93200     2  ; JCC,7,(1986),230 ; (a99sb-disp)
 
 
 [ dihedraltypes ]
@@ -565,6 +587,22 @@ X   X   CA  H5       4      180.00     4.60240     2	; bsd.on C6H6 nmodes
  X   CR  NB  X     9     180.0     20.92000     2  ; JCC,7,(1986),230
  X   CV  NB  X     9     180.0     10.04160     2  ; JCC,7,(1986),230
  X   CW  NA  X     9     180.0      6.27600     2  ; JCC,7,(1986),230
+
+ H   N   C   OC    9     180.0     10.46000     2  ; JCC,7,(1986),230 ; (a99sb-disp)
+ H   N   C   OC    9       0.0      8.36800     1  ; J.C.cistrans-NMA DE ; (a99sb-disp)
+ HN  N   C   OC    9     180.0     10.46000     2  ; JCC,7,(1986),230 ; (a99sb-disp)
+ HN  N   C   OC    9       0.0      8.36800     1  ; J.C.cistrans-NMA DE ; (a99sb-disp)
+ H1  CT  C   OC    9       0.0      3.34720     1  ; Junmei et al, 1999 ; (a99sb-disp)
+ H1  CT  C   OC    9     180.0      0.33472     3  ; Junmei et al, 1999 ; (a99sb-disp)
+ HC  CT  C   OC    9       0.0      3.34720     1  ; Junmei et al, 1999 ; (a99sb-disp)
+ HC  CT  C   OC    9     180.0      0.33472     3  ; Junmei et al, 1999 ; (a99sb-disp)
+ HO  OH  C   OC    9     180.0      9.62320     2  ; Junmei et al, 1999 ; (a99sb-disp)
+ HO  OH  C   OC    9       0.0      7.94960     1  ; Junmei et al, 1999 ; (a99sb-disp)
+ CM  CM  C   OC    9     180.0      9.10020     2  ; Junmei et al, 1999 ; (a99sb-disp)
+ CM  CM  C   OC    9       0.0      1.25520     3  ; Junmei et al, 1999 ; (a99sb-disp)
+ OC  C   OS  CT    9     180.0     11.29680     2  ; Junmei et al, 1999 ; (a99sb-disp)
+ OC  C   OS  CT    9     180.0      5.85760     1  ; Junmei et al, 1999 ; (a99sb-disp)
+ X   C   OC  X     9     180.0     11.71520     2  ; Junmei et al, 1999 ; (a99sb-disp)
 
 ; Modified amino acid torsions in Amber99SB-ILDN
 ; These should not override the general torsion for the atom types,

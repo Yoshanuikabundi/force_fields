@@ -42,6 +42,7 @@ N2           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
 N3           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
 N*           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
 O            8      16.00    0.0000  A   2.95992e-01  8.78640e-01
+OC           8      16.00    0.0000  A   2.95992e-01  8.78640e-01 ; Protein backbone carbonyl oxygen for a99sb-disp override
 OW           8      16.00    0.0000  A   3.15061e-01  6.36386e-01
 OH           8      16.00    0.0000  A   3.06647e-01  8.80314e-01
 OS           8      16.00    0.0000  A   3.00001e-01  7.11280e-01
@@ -83,3 +84,7 @@ MW           0       0.0000  0.0000  A   0.00000e+00  0.00000e+00
 ; Dummy masses for rigid CH3 and NH3 groups
 MCH3         0       0.0000  0.0000  A   0.00000e+00  0.00000e+00
 MNH3         0       0.0000  0.0000  A   0.00000e+00  0.00000e+00
+
+[ nonbond_params ]
+; i   j    func         sigma       epsilon
+HN    OC      1   1.50000e-01  1.256039e+00 ; a99sb-disp backbone override

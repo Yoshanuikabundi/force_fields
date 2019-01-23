@@ -40,6 +40,7 @@ N2                14.01000	; sp2 N in amino groups
 N3                14.01000	; sp3 N for charged amino groups (Lys, etc)
 N*                14.01000	; sp2 N
 O                 16.00000	; carbonyl group oxygen
+OC                16.00000  ; carbonyl group oxygen in protein backbones (a99sb-disp)
 OW                16.00000	; oxygen in TIP3P water
 OH                16.00000	; oxygen in hydroxyl group
 OS                16.00000	; ether and ester oxygen
