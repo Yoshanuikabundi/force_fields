@@ -15,6 +15,7 @@ C*                12.01000	; sp2 arom. 5 memb.ring w/1 subst. (TRP)
 C0                40.08000	; calcium
 F                 19.00000	; fluorine
 H                  1.00800	; H bonded to nitrogen atoms
+HN                 1.00800  ; H in protein backbone amides (a99sb-disp)
 HC                 1.00800	; H aliph. bond. to C without electrwd.group
 H1                 1.00800	; H aliph. bond. to C with 1 electrwd. group
 H2                 1.00800	; H aliph. bond. to C with 2 electrwd.groups
