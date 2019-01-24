@@ -202,6 +202,21 @@
     CA     C
      C     O
     -C     N
+ [ dihedrals ]
+     C    CA     N    -C    torsion_C_N_C1_C_mult1
+     C    CA     N    -C    torsion_C_N_C1_C_mult2
+     C    CA     N    -C    torsion_C_N_C1_C_mult3
+     C    CA     N    -C    torsion_C_N_C1_C_mult4
+     N    CA     C    +N    torsion_N_C1_C_N_mult1
+     N    CA     C    +N    torsion_N_C1_C_N_mult2
+     N    CA     C    +N    torsion_N_C1_C_N_mult3
+     N    CA     C    +N    torsion_N_C1_C_N_mult4
+   HA1    CA     C     O    torsion_H1_C1_C_O_mult1
+   HA1    CA     C     O    torsion_H1_C1_C_O_mult2
+   HA1    CA     C     O    torsion_H1_C1_C_O_mult3
+   HA2    CA     C     O    torsion_H1_C1_C_O_mult1
+   HA2    CA     C     O    torsion_H1_C1_C_O_mult2
+   HA2    CA     C     O    torsion_H1_C1_C_O_mult3
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -231,6 +246,18 @@
     OG    HG
      C     O
     -C     N
+ [ dihedrals ]
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult1
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult2
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult3
+     N    CA    CB    OG    torsion_N_CT_C8_OH
+     C    CA    CB    OG    torsion_C_CT_C8_OH
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult1
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult2
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult3
+    HG    OG    CB    CA    torsion_CT_C8_OH_HO_mult1
+    HG    OG    CB    CA    torsion_CT_C8_OH_HO_mult2
+    HG    OG    CB    CA    torsion_CT_C8_OH_HO_mult3
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -265,8 +292,30 @@
    CG2  HG22
    CG2  HG23
    OG1   HG1
-     C     Oa
+     C     O
     -C     N
+ [ dihedrals ]
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult1
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult2
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult3
+     N    CA    CB   CG2    torsion_N_CT_C8_CT_mult1
+     N    CA    CB   CG2    torsion_N_CT_C8_CT_mult2
+     N    CA    CB   CG2    torsion_N_CT_C8_CT_mult3
+     N    CA    CB   CG2    torsion_N_CT_C8_CT_mult4
+     N    CA    CB   OG1    torsion_N_CT_C8_O3
+     C    CA    CB   OG1    torsion_C_CT_C8_O3
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult1
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult2
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult3
+    CA    CB   OG1   HG1    torsion_CT_C8_O3_HO_mult1
+    CA    CB   OG1   HG1    torsion_CT_C8_O3_HO_mult2
+    CA    CB   OG1   HG1    torsion_CT_C8_O3_HO_mult3
+    HB    CB   OG1   HG1    torsion_H1_C8_O3_HO_mult1
+    HB    CB   OG1   HG1    torsion_H1_C8_O3_HO_mult2
+    HB    CB   OG1   HG1    torsion_H1_C8_O3_HO_mult3
+   CG2    CB   OG1   HG1    torsion_CT_C8_O3_HO_mult1
+   CG2    CB   OG1   HG1    torsion_CT_C8_O3_HO_mult2
+   CG2    CB   OG1   HG1    torsion_CT_C8_O3_HO_mult3
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -314,9 +363,90 @@
      C     O
     -C     N
  [ dihedrals ]
-     C    CA    CB    CG        torsion_LEU_C_CA_CB_CG_mult1
-     C    CA    CB    CG        torsion_LEU_C_CA_CB_CG_mult2
-     C    CA    CB    CG        torsion_LEU_C_CA_CB_CG_mult3
+     C    CA    CB    CG    torsion_C_CT_CT_C4_mult1
+     C    CA    CB    CG    torsion_C_CT_CT_C4_mult2
+     C    CA    CB    CG    torsion_C_CT_CT_C4_mult3
+    CA    CB    CG    HG    torsion_HC_C4_CT_CT_mult1
+    CA    CB    CG    HG    torsion_HC_C4_CT_CT_mult2
+    CA    CB    CG    HG    torsion_HC_C4_CT_CT_mult3
+    CA    CB    CG   CD1    torsion_CT_CT_C4_CT_mult1
+    CA    CB    CG   CD1    torsion_CT_CT_C4_CT_mult2
+    CA    CB    CG   CD1    torsion_CT_CT_C4_CT_mult3
+    CA    CB    CG   CD2    torsion_CT_CT_C4_CT_mult1
+    CA    CB    CG   CD2    torsion_CT_CT_C4_CT_mult2
+    CA    CB    CG   CD2    torsion_CT_CT_C4_CT_mult3
+   HB1    CB    CG    HG    torsion_HC_C4_CT_HC_mult1
+   HB1    CB    CG    HG    torsion_HC_C4_CT_HC_mult2
+   HB1    CB    CG    HG    torsion_HC_C4_CT_HC_mult3
+   HB1    CB    CG   CD1    torsion_HC_CT_C4_CT_mult1
+   HB1    CB    CG   CD1    torsion_HC_CT_C4_CT_mult2
+   HB1    CB    CG   CD1    torsion_HC_CT_C4_CT_mult3
+   HB1    CB    CG   CD2    torsion_HC_CT_C4_CT_mult1
+   HB1    CB    CG   CD2    torsion_HC_CT_C4_CT_mult2
+   HB1    CB    CG   CD2    torsion_HC_CT_C4_CT_mult3
+   HB2    CB    CG    HG    torsion_HC_C4_CT_HC_mult1
+   HB2    CB    CG    HG    torsion_HC_C4_CT_HC_mult2
+   HB2    CB    CG    HG    torsion_HC_C4_CT_HC_mult3
+   HB2    CB    CG   CD1    torsion_HC_CT_C4_CT_mult1
+   HB2    CB    CG   CD1    torsion_HC_CT_C4_CT_mult2
+   HB2    CB    CG   CD1    torsion_HC_CT_C4_CT_mult3
+   HB2    CB    CG   CD2    torsion_HC_CT_C4_CT_mult1
+   HB2    CB    CG   CD2    torsion_HC_CT_C4_CT_mult2
+   HB2    CB    CG   CD2    torsion_HC_CT_C4_CT_mult3
+    CB    CG   CD1  HD11    torsion_HC_CT_C4_CT_mult1
+    CB    CG   CD1  HD11    torsion_HC_CT_C4_CT_mult2
+    CB    CG   CD1  HD11    torsion_HC_CT_C4_CT_mult3
+    CB    CG   CD1  HD12    torsion_HC_CT_C4_CT_mult1
+    CB    CG   CD1  HD12    torsion_HC_CT_C4_CT_mult2
+    CB    CG   CD1  HD12    torsion_HC_CT_C4_CT_mult3
+    CB    CG   CD1  HD13    torsion_HC_CT_C4_CT_mult1
+    CB    CG   CD1  HD13    torsion_HC_CT_C4_CT_mult2
+    CB    CG   CD1  HD13    torsion_HC_CT_C4_CT_mult3
+    HG    CG   CD1  HD11    torsion_HC_C4_CT_HC_mult1
+    HG    CG   CD1  HD11    torsion_HC_C4_CT_HC_mult2
+    HG    CG   CD1  HD11    torsion_HC_C4_CT_HC_mult3
+    HG    CG   CD1  HD12    torsion_HC_C4_CT_HC_mult1
+    HG    CG   CD1  HD12    torsion_HC_C4_CT_HC_mult2
+    HG    CG   CD1  HD12    torsion_HC_C4_CT_HC_mult3
+    HG    CG   CD1  HD13    torsion_HC_C4_CT_HC_mult1
+    HG    CG   CD1  HD13    torsion_HC_C4_CT_HC_mult2
+    HG    CG   CD1  HD13    torsion_HC_C4_CT_HC_mult3
+   CD2    CG   CD1  HD11    torsion_HC_CT_C4_CT_mult1
+   CD2    CG   CD1  HD11    torsion_HC_CT_C4_CT_mult2
+   CD2    CG   CD1  HD11    torsion_HC_CT_C4_CT_mult3
+   CD2    CG   CD1  HD12    torsion_HC_CT_C4_CT_mult1
+   CD2    CG   CD1  HD12    torsion_HC_CT_C4_CT_mult2
+   CD2    CG   CD1  HD12    torsion_HC_CT_C4_CT_mult3
+   CD2    CG   CD1  HD13    torsion_HC_CT_C4_CT_mult1
+   CD2    CG   CD1  HD13    torsion_HC_CT_C4_CT_mult2
+   CD2    CG   CD1  HD13    torsion_HC_CT_C4_CT_mult3
+  HD21   CD2    CG    CB    torsion_HC_CT_C4_CT_mult1
+  HD21   CD2    CG    CB    torsion_HC_CT_C4_CT_mult2
+  HD21   CD2    CG    CB    torsion_HC_CT_C4_CT_mult3
+  HD21   CD2    CG    HG    torsion_HC_C4_CT_HC_mult1
+  HD21   CD2    CG    HG    torsion_HC_C4_CT_HC_mult2
+  HD21   CD2    CG    HG    torsion_HC_C4_CT_HC_mult3
+  HD21   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult1
+  HD21   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult2
+  HD21   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult3
+  HD22   CD2    CG    CB    torsion_HC_CT_C4_CT_mult1
+  HD22   CD2    CG    CB    torsion_HC_CT_C4_CT_mult2
+  HD22   CD2    CG    CB    torsion_HC_CT_C4_CT_mult3
+  HD22   CD2    CG    HG    torsion_HC_C4_CT_HC_mult1
+  HD22   CD2    CG    HG    torsion_HC_C4_CT_HC_mult2
+  HD22   CD2    CG    HG    torsion_HC_C4_CT_HC_mult3
+  HD22   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult1
+  HD22   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult2
+  HD22   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult3
+  HD23   CD2    CG    CB    torsion_HC_CT_C4_CT_mult1
+  HD23   CD2    CG    CB    torsion_HC_CT_C4_CT_mult2
+  HD23   CD2    CG    CB    torsion_HC_CT_C4_CT_mult3
+  HD23   CD2    CG    HG    torsion_HC_C4_CT_HC_mult1
+  HD23   CD2    CG    HG    torsion_HC_C4_CT_HC_mult2
+  HD23   CD2    CG    HG    torsion_HC_C4_CT_HC_mult3
+  HD23   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult1
+  HD23   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult2
+  HD23   CD2    CG   CD1    torsion_HC_CT_C4_CT_mult3
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -364,8 +494,44 @@
      C     O
     -C     N
  [ dihedrals ]
-     N    CA    CB   CG2        torsion_ILE_N_CA_CB_CG2_mult1
-     N    CA    CB   CG2        torsion_ILE_N_CA_CB_CG2_mult2
+     N    CA    CB   CG2        torsion_ILE_N_CA_CB_CG2_mult1 ; TODO: Should I have kept these?
+     N    CA    CB   CG2        torsion_ILE_N_CA_CB_CG2_mult2 ; TODO: Should I have kept these?
+    CD   CG1    CB    CA    torsion_CT_CT_CT_C3_mult1
+    CD   CG1    CB    CA    torsion_CT_CT_CT_C3_mult2
+    CD   CG1    CB    CA    torsion_CT_CT_CT_C3_mult3
+    CD   CG1    CB    HB    torsion_HC_CT_CT_C3_mult1
+    CD   CG1    CB    HB    torsion_HC_CT_CT_C3_mult2
+    CD   CG1    CB    HB    torsion_HC_CT_CT_C3_mult3
+    CD   CG1    CB   CG2    torsion_CT_CT_CT_C3_mult1
+    CD   CG1    CB   CG2    torsion_CT_CT_CT_C3_mult2
+    CD   CG1    CB   CG2    torsion_CT_CT_CT_C3_mult3
+   HD1    CD   CG1    CB    torsion_HC_C3_CT_CT_mult1
+   HD1    CD   CG1    CB    torsion_HC_C3_CT_CT_mult2
+   HD1    CD   CG1    CB    torsion_HC_C3_CT_CT_mult3
+   HD1    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult1
+   HD1    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult2
+   HD1    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult3
+   HD1    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult1
+   HD1    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult2
+   HD1    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult3
+   HD2    CD   CG1    CB    torsion_HC_C3_CT_CT_mult1
+   HD2    CD   CG1    CB    torsion_HC_C3_CT_CT_mult2
+   HD2    CD   CG1    CB    torsion_HC_C3_CT_CT_mult3
+   HD2    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult1
+   HD2    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult2
+   HD2    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult3
+   HD2    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult1
+   HD2    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult2
+   HD2    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult3
+   HD3    CD   CG1    CB    torsion_HC_C3_CT_CT_mult1
+   HD3    CD   CG1    CB    torsion_HC_C3_CT_CT_mult2
+   HD3    CD   CG1    CB    torsion_HC_C3_CT_CT_mult3
+   HD3    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult1
+   HD3    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult2
+   HD3    CD   CG1  HG11    torsion_HC_C3_CT_HC_mult3
+   HD3    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult1
+   HD3    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult2
+   HD3    CD   CG1  HG12    torsion_HC_C3_CT_HC_mult3
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -406,6 +572,21 @@
    CG2  HG23
      C     O
     -C     N
+ [ dihedrals ]
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult1
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult2
+    CB    CA     N    -C    torsion_C8_CT_N_C_mult3
+     N    CA    CB   CG1    torsion_N_CT_C8_CT_mult1
+     N    CA    CB   CG1    torsion_N_CT_C8_CT_mult2
+     N    CA    CB   CG1    torsion_N_CT_C8_CT_mult3
+     N    CA    CB   CG1    torsion_N_CT_C8_CT_mult4
+     N    CA    CB   CG2    torsion_N_CT_C8_CT_mult1
+     N    CA    CB   CG2    torsion_N_CT_C8_CT_mult2
+     N    CA    CB   CG2    torsion_N_CT_C8_CT_mult3
+     N    CA    CB   CG2    torsion_N_CT_C8_CT_mult4
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult1
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult2
+    CB    CA     C    +N    torsion_C8_CT_C_N_mult3
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -443,18 +624,30 @@
      C     O
     -C     N
  [ dihedrals ]
-     C    CA    CB    CG        torsion_ASN_C_CA_CB_CG_mult1
-     C    CA    CB    CG        torsion_ASN_C_CA_CB_CG_mult2
-     C    CA    CB    CG        torsion_ASN_C_CA_CB_CG_mult3
-     C    CA    CB    CG        torsion_ASN_C_CA_CB_CG_mult4
-     C    CA    CB    CG        torsion_ASN_C_CA_CB_CG_mult5
-     C    CA    CB    CG        torsion_ASN_C_CA_CB_CG_mult6
-    CA    CB    CG   ND2        torsion_ASN_CA_CB_CG_ND2_mult1
-    CA    CB    CG   ND2        torsion_ASN_CA_CB_CG_ND2_mult2
-    CA    CB    CG   ND2        torsion_ASN_CA_CB_CG_ND2_mult3
-    CA    CB    CG   ND2        torsion_ASN_CA_CB_CG_ND2_mult4
-    CA    CB    CG   ND2        torsion_ASN_CA_CB_CG_ND2_mult5
-    CA    CB    CG   ND2        torsion_ASN_CA_CB_CG_ND2_mult6
+     N    CA    CB    CG    torsion_N_CT_CT_C5
+     C    CA    CB    CG    torsion_C_CT_CT_C5_mult1
+     C    CA    CB    CG    torsion_C_CT_CT_C5_mult2
+     C    CA    CB    CG    torsion_C_CT_CT_C5_mult3
+     C    CA    CB    CG    torsion_C_CT_CT_C5_mult4
+     C    CA    CB    CG    torsion_C_CT_CT_C5_mult5
+     C    CA    CB    CG    torsion_C_CT_CT_C5_mult6
+    CA    CB    CG   OD1    torsion_CT_CT_C5_O
+    CA    CB    CG   ND2    torsion_N_C5_CT_CT_mult1
+    CA    CB    CG   ND2    torsion_N_C5_CT_CT_mult2
+    CA    CB    CG   ND2    torsion_N_C5_CT_CT_mult3
+    CA    CB    CG   ND2    torsion_N_C5_CT_CT_mult4
+    CA    CB    CG   ND2    torsion_N_C5_CT_CT_mult5
+    CA    CB    CG   ND2    torsion_N_C5_CT_CT_mult6
+   HB1    CB    CG   OD1    torsion_HC_CT_C5_O_mult1
+   HB1    CB    CG   OD1    torsion_HC_CT_C5_O_mult2
+   HB1    CB    CG   OD1    torsion_HC_CT_C5_O_mult3
+   HB2    CB    CG   OD1    torsion_HC_CT_C5_O_mult1
+   HB2    CB    CG   OD1    torsion_HC_CT_C5_O_mult2
+   HB2    CB    CG   OD1    torsion_HC_CT_C5_O_mult3
+  HD21   ND2    CG   OD1    torsion_H_N_C5_O_mult1
+  HD21   ND2    CG   OD1    torsion_H_N_C5_O_mult2
+  HD22   ND2    CG   OD1    torsion_H_N_C5_O_mult1
+  HD22   ND2    CG   OD1    torsion_H_N_C5_O_mult2
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -499,6 +692,11 @@
    NE2  HE22
      C     O
     -C     N
+ [ dihedrals ]
+      N    CA    CB    CG    torsion_N_CT_CT_C9
+      C    CA    CB    CG    torsion_C_CT_CT_C9
+    OE1    CD    CG    CB    torsion_CT_C9_C_O_mult1
+    OE1    CD    CG    CB    torsion_CT_C9_C_O_mult2
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -557,6 +755,10 @@
    NH2  HH22
      C     O
     -C     N
+ [ dihedrals ]
+      N    CA    CB    CG    torsion_N_CT_CT_C9
+      C    CA    CB    CG    torsion_C_CT_CT_C9
+     CA    CB    CG    CD    torsion_CT_CT_C9_CT
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -920,6 +1122,13 @@
     CD   OE2
      C     O
     -C     N
+ [ dihedrals ]
+      N    CA    CB    CG    torsion_N_CT_CT_C9
+      C    CA    CB    CG    torsion_C_CT_CT_C9
+    OE1    CD    CG    CB    torsion_CT_C9_C_O2_mult1
+    OE1    CD    CG    CB    torsion_CT_C9_C_O2_mult2
+    OE2    CD    CG    CB    torsion_CT_C9_C_O2_mult1
+    OE2    CD    CG    CB    torsion_CT_C9_C_O2_mult2
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -954,24 +1163,24 @@
      C     O
     -C     N
  [ dihedrals ]
-     N    CA    CB    CG        torsion_ASP_N_CA_CB_CG_mult1
-     N    CA    CB    CG        torsion_ASP_N_CA_CB_CG_mult2
-     N    CA    CB    CG        torsion_ASP_N_CA_CB_CG_mult3
-     N    CA    CB    CG        torsion_ASP_N_CA_CB_CG_mult4
-     N    CA    CB    CG        torsion_ASP_N_CA_CB_CG_mult5
-     N    CA    CB    CG        torsion_ASP_N_CA_CB_CG_mult6
-    CA    CB    CG   OD1        torsion_ASP_CA_CB_CG_OD_mult1
-    CA    CB    CG   OD1        torsion_ASP_CA_CB_CG_OD_mult2
-    CA    CB    CG   OD1        torsion_ASP_CA_CB_CG_OD_mult3
-    CA    CB    CG   OD1        torsion_ASP_CA_CB_CG_OD_mult4
-    CA    CB    CG   OD1        torsion_ASP_CA_CB_CG_OD_mult5
-    CA    CB    CG   OD1        torsion_ASP_CA_CB_CG_OD_mult6
-    CA    CB    CG   OD2        torsion_ASP_CA_CB_CG_OD_mult1
-    CA    CB    CG   OD2        torsion_ASP_CA_CB_CG_OD_mult2
-    CA    CB    CG   OD2        torsion_ASP_CA_CB_CG_OD_mult3
-    CA    CB    CG   OD2        torsion_ASP_CA_CB_CG_OD_mult4
-    CA    CB    CG   OD2        torsion_ASP_CA_CB_CG_OD_mult5
-    CA    CB    CG   OD2        torsion_ASP_CA_CB_CG_OD_mult6
+     N    CA    CB    CG    torsion_N_CT_CT_C6_mult1
+     N    CA    CB    CG    torsion_N_CT_CT_C6_mult2
+     N    CA    CB    CG    torsion_N_CT_CT_C6_mult3
+     N    CA    CB    CG    torsion_N_CT_CT_C6_mult4
+     N    CA    CB    CG    torsion_N_CT_CT_C6_mult5
+     N    CA    CB    CG    torsion_N_CT_CT_C6_mult6
+    CA    CB    CG   OD1    torsion_CT_CT_C6_O2_mult1
+    CA    CB    CG   OD1    torsion_CT_CT_C6_O2_mult2
+    CA    CB    CG   OD1    torsion_CT_CT_C6_O2_mult3
+    CA    CB    CG   OD1    torsion_CT_CT_C6_O2_mult4
+    CA    CB    CG   OD1    torsion_CT_CT_C6_O2_mult5
+    CA    CB    CG   OD1    torsion_CT_CT_C6_O2_mult6
+    CA    CB    CG   OD2    torsion_CT_CT_C6_O2_mult1
+    CA    CB    CG   OD2    torsion_CT_CT_C6_O2_mult2
+    CA    CB    CG   OD2    torsion_CT_CT_C6_O2_mult3
+    CA    CB    CG   OD2    torsion_CT_CT_C6_O2_mult4
+    CA    CB    CG   OD2    torsion_CT_CT_C6_O2_mult5
+    CA    CB    CG   OD2    torsion_CT_CT_C6_O2_mult6
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -1025,6 +1234,11 @@
     NZ   HZ3
      C     O
     -C     N
+ [ dihedrals ]
+      N    CA    CB    CG    torsion_N_CT_CT_C9
+      C    CA    CB    CG    torsion_C_CT_CT_C9
+     CA    CB    CG    CD    torsion_CT_CT_C9_CT
+     CE    CD    CG    CB    torsion_CT_CT_C9_CT
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O
@@ -1399,6 +1613,10 @@
     CE   HE3
      C     O
     -C     N
+ [ dihedrals ]
+      N    CA    CB    CG    torsion_N_CT_CT_C9
+      C    CA    CB    CG    torsion_C_CT_CT_C9
+     CA    CB    CG    SD    torsion_CT_CT_C9_S
  [ impropers ]
     -C    CA     N     H
     CA    +N     C     O

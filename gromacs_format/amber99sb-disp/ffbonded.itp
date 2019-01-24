@@ -460,11 +460,18 @@ X   X   C   OC       4      180.00    43.93200     2  ; JCC,7,(1986),230 ; (a99s
 ;i   j   k   l	   func
  CT  CT  OS  CT    9       0.0      1.60247     3  ;
  CT  CT  OS  CT    9     180.0      0.41840     2  ;
- C   N   CT  C     9       0.0      1.12968     2  ; new for 99sb
- C   N   CT  C     9       0.0      1.75728     3  ; new for 99sb
- N   CT  C   N     9     180.0      1.88280     1  ; new for 99sb
- N   CT  C   N     9     180.0      6.61072     2  ; new for 99sb
- N   CT  C   N     9     180.0      2.30120     3  ; new for 99sb
+ C   N   CT  C     9       0.00    -0.034       1  ; a99sb-disp
+ C   N   CT  C     9       0.00     0.335       2  ; a99sb-disp
+ C   N   CT  C     9       0.00     0.544       3  ; a99sb-disp
+ C   N   CT  C     9       0.00     0.08        4  ; a99sb-disp
+ C   N   CT  C     9      90.00     0.0         1  ; a99sb-disp
+ C   N   CT  C     9      90.00     0.40        2  ; a99sb-disp
+ N   CT  C   N     9     180.00    -0.197       1  ; a99sb-disp
+ N   CT  C   N     9     180.00     1.445       2  ; a99sb-disp
+ N   CT  C   N     9     180.00     0.479       3  ; a99sb-disp
+ N   CT  C   N     9     180.00    -0.0191      4  ; a99sb-disp
+ N   CT  C   N     9     180.00    -0.004       5  ; a99sb-disp
+ N   CT  C   N     9     160.89     0.65        1  ; a99sb-disp
  CT  CT  N   C     9       0.0      8.36800     1  ; new for 99sb
  CT  CT  N   C     9       0.0      8.36800     2  ; new for 99sb
  CT  CT  N   C     9       0.0      1.67360     3  ; new for 99sb
@@ -505,9 +512,9 @@ X   X   C   OC       4      180.00    43.93200     2  ; JCC,7,(1986),230 ; (a99s
  CM  CM  C   O     9       0.0      1.25520     3  ; Junmei et al, 1999
  CT  CM  CM  CT    9     180.0     27.82360     2  ; Junmei et al, 1999
  CT  CM  CM  CT    9     180.0      7.94960     1  ; Junmei et al, 1999
- CT  CT  CT  CT    9       0.0      0.75312     3  ; Junmei et al, 1999
- CT  CT  CT  CT    9     180.0      1.04600     2  ; Junmei et al, 1999
- CT  CT  CT  CT    9     180.0      0.83680     1  ; Junmei et al, 1999
+ CT  CT  CT  CT    9       0.00     0.0         1  ; a99sb-disp
+ CT  CT  CT  CT    9       0.00     0.0         2  ; a99sb-disp
+ CT  CT  CT  CT    9       0.00     0.15        3  ; a99sb-disp
  CT  CT  OS  C     9       0.0      1.60247     3  ; Junmei et al, 1999
  CT  CT  OS  C     9     180.0      3.34720     1  ; Junmei et al, 1999
  CT  OS  CT  OS    9       0.0      0.41840     3  ; Junmei et al, 1999
@@ -530,6 +537,41 @@ X   X   C   OC       4      180.00    43.93200     2  ; JCC,7,(1986),230 ; (a99s
  HC  CT  CT  Br    9       0.0      2.30120     1  ; Junmei et al, 1999
  CT  OS  CT  N*    9       0.0      1.60247     3  ; parm98.dat, TC,PC,PAK
  CT  OS  CT  N*    9       0.0      2.71960     2  ; Piotr et al.
+ H   N   C   OC    9     180.0     10.46000     2  ; JCC,7,(1986),230 ; (a99sb-disp)
+ H   N   C   OC    9       0.0      8.36800     1  ; J.C.cistrans-NMA DE ; (a99sb-disp)
+ HN  N   C   OC    9     180.0     10.46000     2  ; JCC,7,(1986),230 ; (a99sb-disp)
+ HN  N   C   OC    9       0.0      8.36800     1  ; J.C.cistrans-NMA DE ; (a99sb-disp)
+ H1  CT  C   OC    9       0.0      3.34720     1  ; Junmei et al, 1999 ; (a99sb-disp)
+ H1  CT  C   OC    9     180.0      0.33472     3  ; Junmei et al, 1999 ; (a99sb-disp)
+ HC  CT  C   OC    9       0.0      3.34720     1  ; Junmei et al, 1999 ; (a99sb-disp)
+ HC  CT  C   OC    9     180.0      0.33472     3  ; Junmei et al, 1999 ; (a99sb-disp)
+ HO  OH  C   OC    9     180.0      9.62320     2  ; Junmei et al, 1999 ; (a99sb-disp)
+ HO  OH  C   OC    9       0.0      7.94960     1  ; Junmei et al, 1999 ; (a99sb-disp)
+ CM  CM  C   OC    9     180.0      9.10020     2  ; Junmei et al, 1999 ; (a99sb-disp)
+ CM  CM  C   OC    9       0.0      1.25520     3  ; Junmei et al, 1999 ; (a99sb-disp)
+ OC  C   OS  CT    9     180.0     11.29680     2  ; Junmei et al, 1999 ; (a99sb-disp)
+ OC  C   OS  CT    9     180.0      5.85760     1  ; Junmei et al, 1999 ; (a99sb-disp)
+ N   CT  CT  CC    9       0.00    -0.40        1  ; new in a99sb-disp
+ C   CT  CT  CC    9       0.00     0.70        1  ; new in a99sb-disp
+ N   CT  CT  CA    9       0.00     0.0         1  ; new in a99sb-disp
+ C   CT  CT  CA    9       0.00     0.52        1  ; new in a99sb-disp
+ N   CT  CT  SH    9       0.00    -0.55        1  ; new in a99sb-disp
+ N   CT  CT  SH    9       0.00    -0.63        2  ; new in a99sb-disp
+ N   CT  CT  SH    9       0.00    -0.06        3  ; new in a99sb-disp
+ N   CT  CT  SH    9       0.00    -0.03        4  ; new in a99sb-disp
+ C   CT  CT  SH    9       0.00    -.16         1  ; new in a99sb-disp
+ N   CT  CT  N     9      90.00    -0.255       1  ; new in a99sb-disp
+ N   CT  CT  N     9      90.00     0.075       2  ; new in a99sb-disp
+ N   CT  CT  N     9      90.00     0.057       3  ; new in a99sb-disp
+ N   CT  CT  N     9      90.00     0.025       4  ; new in a99sb-disp
+ N   CT  CT  N     9      90.00    -0.011       5  ; new in a99sb-disp
+ CT  CT  SH  HS    9       0.00     0.0         1  ; new in a99sb-disp
+ CT  CT  SH  HS    9       0.00     0.5         2  ; new in a99sb-disp
+ CT  CT  SH  HS    9       0.00     0.2         3  ; new in a99sb-disp
+ N   CT  CT  C*    9       0.00     0.0         1  ; new in a99sb-disp
+ C   CT  CT  C*    9       0.00     0.29        1  ; new in a99sb-disp
+ CT  CT  C*  CW    9       0.00     1.2         1  ; new in a99sb-disp
+ X   C   OC  X     9     180.0     11.71520     2  ; Junmei et al, 1999 ; (a99sb-disp)
  X   C   C   X     9     180.0     15.16700     2  ; Junmei et al, 1999
  X   C   O   X     9     180.0     11.71520     2  ; Junmei et al, 1999
  X   C   OS  X     9     180.0     11.29680     2  ; Junmei et al, 1999
@@ -588,22 +630,6 @@ X   X   C   OC       4      180.00    43.93200     2  ; JCC,7,(1986),230 ; (a99s
  X   CV  NB  X     9     180.0     10.04160     2  ; JCC,7,(1986),230
  X   CW  NA  X     9     180.0      6.27600     2  ; JCC,7,(1986),230
 
- H   N   C   OC    9     180.0     10.46000     2  ; JCC,7,(1986),230 ; (a99sb-disp)
- H   N   C   OC    9       0.0      8.36800     1  ; J.C.cistrans-NMA DE ; (a99sb-disp)
- HN  N   C   OC    9     180.0     10.46000     2  ; JCC,7,(1986),230 ; (a99sb-disp)
- HN  N   C   OC    9       0.0      8.36800     1  ; J.C.cistrans-NMA DE ; (a99sb-disp)
- H1  CT  C   OC    9       0.0      3.34720     1  ; Junmei et al, 1999 ; (a99sb-disp)
- H1  CT  C   OC    9     180.0      0.33472     3  ; Junmei et al, 1999 ; (a99sb-disp)
- HC  CT  C   OC    9       0.0      3.34720     1  ; Junmei et al, 1999 ; (a99sb-disp)
- HC  CT  C   OC    9     180.0      0.33472     3  ; Junmei et al, 1999 ; (a99sb-disp)
- HO  OH  C   OC    9     180.0      9.62320     2  ; Junmei et al, 1999 ; (a99sb-disp)
- HO  OH  C   OC    9       0.0      7.94960     1  ; Junmei et al, 1999 ; (a99sb-disp)
- CM  CM  C   OC    9     180.0      9.10020     2  ; Junmei et al, 1999 ; (a99sb-disp)
- CM  CM  C   OC    9       0.0      1.25520     3  ; Junmei et al, 1999 ; (a99sb-disp)
- OC  C   OS  CT    9     180.0     11.29680     2  ; Junmei et al, 1999 ; (a99sb-disp)
- OC  C   OS  CT    9     180.0      5.85760     1  ; Junmei et al, 1999 ; (a99sb-disp)
- X   C   OC  X     9     180.0     11.71520     2  ; Junmei et al, 1999 ; (a99sb-disp)
-
 ; Modified amino acid torsions in Amber99SB-ILDN
 ; These should not override the general torsion for the atom types,
 ; so to avoid introducing extra new atom types we list them explicitly for
@@ -612,9 +638,10 @@ X   X   C   OC       4      180.00    43.93200     2  ; JCC,7,(1986),230 ; (a99s
 #define torsion_ILE_N_CA_CB_CG2_mult1          0.0        0.8158800        1  ; Proteins 78, 1950 (2010)
 #define torsion_ILE_N_CA_CB_CG2_mult2          0.0       -3.5396640        2  ; Proteins 78, 1950 (2010)
 
-#define torsion_LEU_C_CA_CB_CG_mult1           0.0        2.3890640        1  ; Proteins 78, 1950 (2010)
-#define torsion_LEU_C_CA_CB_CG_mult2           0.0       -1.4978720        2  ; Proteins 78, 1950 (2010)
-#define torsion_LEU_C_CA_CB_CG_mult3           0.0        0.5648400        3  ; Proteins 78, 1950 (2010)
+; These are replaced below
+ ; #define torsion_LEU_C_CA_CB_CG_mult1           0.0        2.3890640        1  ; Proteins 78, 1950 (2010)
+ ; #define torsion_LEU_C_CA_CB_CG_mult2           0.0       -1.4978720        2  ; Proteins 78, 1950 (2010)
+ ; #define torsion_LEU_C_CA_CB_CG_mult3           0.0        0.5648400        3  ; Proteins 78, 1950 (2010)
 
 #define torsion_ASP_N_CA_CB_CG_mult1           0.0       -12.055           1  ; Proteins 78, 1950 (2010)
 #define torsion_ASP_N_CA_CB_CG_mult2           0.0        -5.066           2  ; Proteins 78, 1950 (2010)
@@ -643,3 +670,128 @@ X   X   C   OC       4      180.00    43.93200     2  ; JCC,7,(1986),230 ; (a99s
 #define torsion_ASN_CA_CB_CG_ND2_mult4         0.0         0.418400        4  ; Proteins 78, 1950 (2010)
 #define torsion_ASN_CA_CB_CG_ND2_mult5         0.0         0.543920        5  ; Proteins 78, 1950 (2010)
 #define torsion_ASN_CA_CB_CG_ND2_mult6         0.0        -0.443504        6  ; Proteins 78, 1950 (2010)
+
+; Overrides from A99sb-disp
+#define torsion_N_CT_CT_C9              9        0.00     0.1      1
+#define torsion_C_CT_CT_C9              9        0.00     0.3      1
+#define torsion_CT_CT_C9_S              9        0.00     0.0      1
+#define torsion_CT_C9_C_O2_mult1        9        0.00     0.0      1
+#define torsion_CT_C9_C_O2_mult2        9        0.00     -0.6     2
+#define torsion_CT_C9_C_O_mult1         9        0.00     0.0      1
+#define torsion_CT_C9_C_O_mult2         9        0.00     -0.6     2
+#define torsion_CT_CT_C9_CT             9        0.00     0.0      1
+#define torsion_CT_C8_OH_HO_mult1       9        0.00     0.75     1
+#define torsion_CT_C8_OH_HO_mult2       9        0.00     0.06     2
+#define torsion_CT_C8_OH_HO_mult3       9        0.00     0.20     3
+#define torsion_CT_C8_O3_HO_mult1       9        0.00     0.086    1
+#define torsion_CT_C8_O3_HO_mult2       9        0.00     -0.163   2
+#define torsion_CT_C8_O3_HO_mult3       9        0.00     0.1      3
+#define torsion_H1_C8_O3_HO_mult1       9        0.00     0.0      1
+#define torsion_H1_C8_O3_HO_mult2       9        0.00     0.0      2
+#define torsion_H1_C8_O3_HO_mult3       9        0.00     0.1      3
+#define torsion_N_CT_C8_CT_mult1        9        0.00     0.06     1
+#define torsion_N_CT_C8_CT_mult2        9        0.00     -0.5     2
+#define torsion_N_CT_C8_CT_mult3        9        0.00     0.15     3
+#define torsion_N_CT_C8_CT_mult4        9        0.00     -0.065   4
+#define torsion_N_CT_C8_OH              9        0.00     -0.25    1
+#define torsion_C_CT_C8_OH              9        0.00     -0.90    1
+#define torsion_N_CT_C8_O3              9        0.00     -0.08    1
+#define torsion_C_CT_C8_O3              9        0.00     -1.00    1
+#define torsion_X_CT_C8_X_mult1         9        0.00     0.0      1
+#define torsion_X_CT_C8_X_mult2         9        0.00     0.0      2
+#define torsion_X_CT_C8_X_mult3         9        0.00     0.16     3
+#define torsion_C8_CT_N_C_mult1         9        0.00     2.00     1
+#define torsion_C8_CT_N_C_mult2         9        0.00     2.00     2
+#define torsion_C8_CT_N_C_mult3         9        0.00     0.40     3
+#define torsion_C8_CT_C_N_mult1         9        0.00     0.20     1
+#define torsion_C8_CT_C_N_mult2         9        0.00     0.20     2
+#define torsion_C8_CT_C_N_mult3         9        0.00     0.40     3
+#define torsion_CT_CT_C4_CT_mult1       9        0.00     0.0      1
+#define torsion_CT_CT_C4_CT_mult2       9        0.00     0.0      2
+#define torsion_CT_CT_C4_CT_mult3       9        0.00     0.15     3
+#define torsion_HC_CT_CT_C4_mult1       9        0.00     0.0      1
+#define torsion_HC_CT_CT_C4_mult2       9        0.00     0.0      2
+#define torsion_HC_CT_CT_C4_mult3       9        0.00     0.16     3
+#define torsion_CT_C4_CT_CT_mult1       9        0.00     0.0      1
+#define torsion_CT_C4_CT_CT_mult2       9        0.00     0.0      2
+#define torsion_CT_C4_CT_CT_mult3       9        0.00     0.15     3
+#define torsion_HC_C4_CT_CT_mult1       9        0.00     0.0      1
+#define torsion_HC_C4_CT_CT_mult2       9        0.00     0.0      2
+#define torsion_HC_C4_CT_CT_mult3       9        0.00     0.16     3
+#define torsion_HC_C4_CT_HC_mult1       9        0.00     0.0      1
+#define torsion_HC_C4_CT_HC_mult2       9        0.00     0.0      2
+#define torsion_HC_C4_CT_HC_mult3       9        0.00     0.15     3
+#define torsion_HC_CT_C4_CT_mult1       9        0.00     0.0      1
+#define torsion_HC_CT_C4_CT_mult2       9        0.00     0.0      2
+#define torsion_HC_CT_C4_CT_mult3       9        0.00     0.16     3
+#define torsion_C_CT_CT_C4_mult1        9        0.00     0.5714   1
+#define torsion_C_CT_CT_C4_mult2        9        0.00     -0.3583  2
+#define torsion_C_CT_CT_C4_mult3        9        0.00     0.1348   3
+#define torsion_CT_CT_CT_C3_mult1       9        0.00     0.0      1
+#define torsion_CT_CT_CT_C3_mult2       9        0.00     0.0      2
+#define torsion_CT_CT_CT_C3_mult3       9        0.00     0.15     3
+#define torsion_HC_CT_CT_C3_mult1       9        0.00     0.0      1
+#define torsion_HC_CT_CT_C3_mult2       9        0.00     0.0      2
+#define torsion_HC_CT_CT_C3_mult3       9        0.00     0.16     3
+#define torsion_HC_C3_CT_CT_mult1       9        0.00     0.0      1
+#define torsion_HC_C3_CT_CT_mult2       9        0.00     0.0      2
+#define torsion_HC_C3_CT_CT_mult3       9        0.00     0.16     3
+#define torsion_HC_C3_CT_HC_mult1       9        0.00     0.0      1
+#define torsion_HC_C3_CT_HC_mult2       9        0.00     0.0      2
+#define torsion_HC_C3_CT_HC_mult3       9        0.00     0.15     3
+#define torsion_N_CT_CT_C3_mult1        9        0.00     0.1951   1
+#define torsion_N_CT_CT_C3_mult2        9        0.00     -0.8459  2
+#define torsion_N3_CT_CT_C3_mult1       9        0.00     0.1951   1
+#define torsion_N3_CT_CT_C3_mult2       9        0.00     -0.8459  2
+#define torsion_HC_CT_C5_O_mult1        9        0.00     0.8      1
+#define torsion_HC_CT_C5_O_mult2        9        0.00     0.0      2
+#define torsion_HC_CT_C5_O_mult3        9        0.00     -0.08    3
+#define torsion_H_N_C5_O_mult1          9        0.00     2.0      1
+#define torsion_H_N_C5_O_mult2          9        0.00     -2.5     2
+#define torsion_N_C5_CT_CT_mult1        9        0.00     -1.0463  1
+#define torsion_N_C5_CT_CT_mult2        9        0.00     -0.181   2
+#define torsion_N_C5_CT_CT_mult3        9        0.00     -0.0354  3
+#define torsion_N_C5_CT_CT_mult4        9        0.00     0.1003   4
+#define torsion_N_C5_CT_CT_mult5        9        0.00     0.1298   5
+#define torsion_N_C5_CT_CT_mult6        9        0.00     -0.1061  6
+#define torsion_N_CT_CT_C5              9        0.00     -0.63    1
+#define torsion_C_CT_CT_C5_mult1        9        0.00     0.1707   1
+#define torsion_C_CT_CT_C5_mult2        9        0.00     -0.5957  2
+#define torsion_C_CT_CT_C5_mult3        9        0.00     0.1185   3
+#define torsion_C_CT_CT_C5_mult4        9        0.00     -0.4172  4
+#define torsion_C_CT_CT_C5_mult5        9        0.00     0.1042   5
+#define torsion_C_CT_CT_C5_mult6        9        0.00     -0.1007  6
+#define torsion_CT_CT_C5_O              9        0.00     -1.0     1
+#define torsion_N_CT_CT_C6_mult1        9        0.00     -2.881   1
+#define torsion_N_CT_CT_C6_mult2        9        0.00     -1.211   2
+#define torsion_N_CT_CT_C6_mult3        9        0.00     0.062    3
+#define torsion_N_CT_CT_C6_mult4        9        0.00     0.245    4
+#define torsion_N_CT_CT_C6_mult5        9        0.00     0.131    5
+#define torsion_N_CT_CT_C6_mult6        9        0.00     -0.142   6
+#define torsion_N3_CT_CT_C6_mult1       9        0.00     -2.6352  1
+#define torsion_N3_CT_CT_C6_mult2       9        0.00     -1.1903  2
+#define torsion_N3_CT_CT_C6_mult3       9        0.00     -0.068   3
+#define torsion_N3_CT_CT_C6_mult4       9        0.00     0.4227   4
+#define torsion_N3_CT_CT_C6_mult5       9        0.00     0.1042   5
+#define torsion_N3_CT_CT_C6_mult6       9        0.00     -0.2127  6
+#define torsion_CT_CT_C6_O2_mult1       9        0.00     0.0      1
+#define torsion_CT_CT_C6_O2_mult2       9        0.00     -0.873   2
+#define torsion_CT_CT_C6_O2_mult3       9        0.00     0.0      3
+#define torsion_CT_CT_C6_O2_mult4       9        0.00     -0.186   4
+#define torsion_CT_CT_C6_O2_mult5       9        0.00     0.0      5
+#define torsion_CT_CT_C6_O2_mult6       9        0.00     -0.354   6
+#define torsion_C_N_C1_C_mult1          9        0.00     0.084    1
+#define torsion_C_N_C1_C_mult2          9        0.00     0.381    2
+#define torsion_C_N_C1_C_mult3          9        0.00     -0.020   3
+#define torsion_C_N_C1_C_mult4          9        0.00     0.077    4
+#define torsion_N_C1_C_N_mult1          9        0.00     -0.644   1
+#define torsion_N_C1_C_N_mult2          9        0.00     -1.598   2
+#define torsion_N_C1_C_N_mult3          9        0.00     -0.399   3
+#define torsion_N_C1_C_N_mult4          9        0.00     0.075    4
+#define torsion_H1_C1_C_O_mult1         9        0.00     0.80     1
+#define torsion_H1_C1_C_O_mult2         9        0.00     0.0      2
+#define torsion_H1_C1_C_O_mult3         9        0.00     -0.08    3
+#define torsion_X_C1_N3_X_mult1         9        0.00     0.0      1
+#define torsion_X_C1_N3_X_mult2         9        0.00     0.156    2
+#define torsion_X_C1_N_X                9        0.00     0.0      1
+#define torsion_X_C1_C_X                9        0.00     0.0      1
