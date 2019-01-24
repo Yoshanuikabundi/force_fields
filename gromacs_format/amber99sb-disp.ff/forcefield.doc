@@ -1,3 +1,5 @@
+The AMBER99SB-disp forcefield (Robustelli, Piana and Shaw, PNAS, 115 (21) E4758-E4766, 2018)
+derived from
 AMBER99SB* modification of ff99SB (Best and Hummer, J. Phys. Chem. B, 113, 9004-9015, 2009)
 combined with
 AMBER99SB-ILDN force field (Lindorff-Larsen et al., Proteins 78, 1950-58, 2010)
@@ -12,4 +14,3 @@ AMBER99SB-ILDN-Q force field (Best, De Sancho and Mittal, Biophys. J. 102:1462-1
 * Improved side-chain torsion potentials for the Amber ff99SB      *
 * protein force field, Proteins 78:1950–1958 (2010)                *
 ********************************************************************
-
