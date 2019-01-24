@@ -1,0 +1,218 @@
+ N    CT    CT    CC    9      0.00   -0.40      1
+
+ C    CT    CT    CC    9      0.00    0.70      1
+
+ N    CT    CT    CA    9      0.00    0.0       1
+
+ C    CT    CT    CA    9      0.00    0.52      1
+
+ N    CT    CT    C&    9      0.00    0.0       1
+
+ C    CT    CT    C&    9      0.00    0.29      1
+
+CT    CT    C&    CW    9      0.00    1.2       1
+
+CT    CT    SH    HS    9      0.00    0.0       1
+CT    CT    SH    HS    9      0.00    0.5       2
+CT    CT    SH    HS    9      0.00    0.2       3
+
+ N    CT    CT    SH    9      0.00   -0.55      1
+ N    CT    CT    SH    9      0.00   -0.63      2
+ N    CT    CT    SH    9      0.00   -0.06      3
+ N    CT    CT    SH    9      0.00   -0.03      4
+
+ C    CT    CT    SH    9      0.00   -.16       1
+
+ N    CT    CT    C9    9      0.00    0.1       1
+
+ C    CT    CT    C9    9      0.00    0.3       1
+
+CT    CT    C9     S    9      0.00    0.0       1
+
+CT    C9     C    O2    9      0.00    0.0       1
+CT    C9     C    O2    9      0.00   -0.6       2
+
+CT    C9     C     O    9      0.00    0.0       1
+CT    C9     C     O    9      0.00   -0.6       2
+
+CT    CT    C9    CT    9      0.00    0.0       1
+
+CT    C8    OH    HO    9      0.00    0.75      1
+CT    C8    OH    HO    9      0.00    0.06      2
+CT    C8    OH    HO    9      0.00    0.20      3
+
+CT    C8    O3    HO    9      0.00    0.086     1
+CT    C8    O3    HO    9      0.00   -0.163     2
+CT    C8    O3    HO    9      0.00    0.1       3
+
+H1    C8    O3    HO    9      0.00    0.0       1
+H1    C8    O3    HO    9      0.00    0.0       2
+H1    C8    O3    HO    9      0.00    0.1       3
+
+ N    CT    C8    CT    9      0.00    0.06      1
+ N    CT    C8    CT    9      0.00   -0.5       2
+ N    CT    C8    CT    9      0.00    0.15      3
+ N    CT    C8    CT    9      0.00   -0.065     4
+
+ N    CT    C8    OH    9      0.00   -0.25      1
+
+ C    CT    C8    OH    9      0.00   -0.90      1
+
+ N    CT    C8    O3    9      0.00   -0.08      1
+
+ C    CT    C8    O3    9      0.00   -1.00      1
+
+ X    CT    C8     X    9      0.00    0.0       1
+ X    CT    C8     X    9      0.00    0.0       2
+ X    CT    C8     X    9      0.00    0.16      3
+
+CT    CT    C4    CT    9      0.00    0.0       1
+CT    CT    C4    CT    9      0.00    0.0       2
+CT    CT    C4    CT    9      0.00    0.15      3
+
+CT    CT    CT    CT    9      0.00    0.0       1
+CT    CT    CT    CT    9      0.00    0.0       2
+CT    CT    CT    CT    9      0.00    0.15      3
+
+CT    CT    CT    C3    9      0.00    0.0       1
+CT    CT    CT    C3    9      0.00    0.0       2
+CT    CT    CT    C3    9      0.00    0.15      3
+
+HC    CT    CT    C3    9      0.00    0.0       1
+HC    CT    CT    C3    9      0.00    0.0       2
+HC    CT    CT    C3    9      0.00    0.16      3
+
+HC    CT    CT    C4    9      0.00    0.0       1
+HC    CT    CT    C4    9      0.00    0.0       2
+HC    CT    CT    C4    9      0.00    0.16      3
+
+CT    C4    CT    CT    9      0.00    0.0       1
+CT    C4    CT    CT    9      0.00    0.0       2
+CT    C4    CT    CT    9      0.00    0.15      3
+
+HC    C4    CT    CT    9      0.00    0.0       1
+HC    C4    CT    CT    9      0.00    0.0       2
+HC    C4    CT    CT    9      0.00    0.16      3
+
+HC    C4    CT    HC    9      0.00    0.0       1
+HC    C4    CT    HC    9      0.00    0.0       2
+HC    C4    CT    HC    9      0.00    0.15      3
+
+HC    CT    C4    CT    9      0.00    0.0       1
+HC    CT    C4    CT    9      0.00    0.0       2
+HC    CT    C4    CT    9      0.00    0.16      3
+
+HC    C3    CT    CT    9      0.00    0.0       1
+HC    C3    CT    CT    9      0.00    0.0       2
+HC    C3    CT    CT    9      0.00    0.16      3
+
+HC    C3    CT    HC    9      0.00    0.0       1
+HC    C3    CT    HC    9      0.00    0.0       2
+HC    C3    CT    HC    9      0.00    0.15      3
+
+HC    CT    C5     O    9      0.00    0.8       1
+HC    CT    C5     O    9      0.00    0.0       2
+HC    CT    C5     O    9      0.00   -0.08      3
+
+ H     N    C5     O    9      0.00    2.0       1
+ H     N    C5     O    9      0.00   -2.5       2
+
+ N    CT    CT    C3    9      0.00    0.1951    1
+ N    CT    CT    C3    9      0.00   -0.8459    2
+
+N3    CT    CT    C3    9      0.00    0.1951    1
+N3    CT    CT    C3    9      0.00   -0.8459    2
+
+ C    CT    CT    C4    9      0.00    0.5714    1
+ C    CT    CT    C4    9      0.00   -0.3583    2
+ C    CT    CT    C4    9      0.00    0.1348    3
+
+ N    C5    CT    CT    9      0.00   -1.0463    1
+ N    C5    CT    CT    9      0.00   -0.181     2
+ N    C5    CT    CT    9      0.00   -0.0354    3
+ N    C5    CT    CT    9      0.00    0.1003    4
+ N    C5    CT    CT    9      0.00    0.1298    5
+ N    C5    CT    CT    9      0.00   -0.1061    6
+
+ N    CT    CT    C5    9      0.00   -0.63      1
+
+ C    CT    CT    C5    9      0.00    0.1707    1
+ C    CT    CT    C5    9      0.00   -0.5957    2
+ C    CT    CT    C5    9      0.00    0.1185    3
+ C    CT    CT    C5    9      0.00   -0.4172    4
+ C    CT    CT    C5    9      0.00    0.1042    5
+ C    CT    CT    C5    9      0.00   -0.1007    6
+
+C8    CT     N     C    9      0.00    2.00      1
+C8    CT     N     C    9      0.00    2.00      2
+C8    CT     N     C    9      0.00    0.40      3
+
+C8    CT     C     N    9      0.00    0.20      1
+C8    CT     C     N    9      0.00    0.20      2
+C8    CT     C     N    9      0.00    0.40      3
+
+ N    CT    CT    C6    9      0.00   -2.881     1
+ N    CT    CT    C6    9      0.00   -1.211     2
+ N    CT    CT    C6    9      0.00    0.062     3
+ N    CT    CT    C6    9      0.00    0.245     4
+ N    CT    CT    C6    9      0.00    0.131     5
+ N    CT    CT    C6    9      0.00   -0.142     6
+
+N3    CT    CT    C6    9      0.00   -2.6352    1
+N3    CT    CT    C6    9      0.00   -1.1903    2
+N3    CT    CT    C6    9      0.00   -0.068     3
+N3    CT    CT    C6    9      0.00    0.4227    4
+N3    CT    CT    C6    9      0.00    0.1042    5
+N3    CT    CT    C6    9      0.00   -0.2127    6
+
+CT    CT    C6    O2    9      0.00    0.0       1
+CT    CT    C6    O2    9      0.00   -0.873     2
+CT    CT    C6    O2    9      0.00    0.0       3
+CT    CT    C6    O2    9      0.00   -0.186     4
+CT    CT    C6    O2    9      0.00    0.0       5
+CT    CT    C6    O2    9      0.00   -0.354     6
+
+CT    CT    C5     O    9      0.00   -1.0       1
+
+ N    CT     C     N    9    160.89    0.65      1
+
+ N    CT     C     N    9    180.00   -0.197     1
+ N    CT     C     N    9    180.00    1.445     2
+ N    CT     C     N    9    180.00    0.479     3
+ N    CT     C     N    9    180.00   -0.0191    4
+ N    CT     C     N    9    180.00   -0.004     5
+
+ N    CT    CT     N    9     90.00   -0.255     1
+ N    CT    CT     N    9     90.00    0.075     2
+ N    CT    CT     N    9     90.00    0.057     3
+ N    CT    CT     N    9     90.00    0.025     4
+ N    CT    CT     N    9     90.00   -0.011     5
+
+ C     N    CT     C    9      0.00   -0.034     1
+ C     N    CT     C    9      0.00    0.335     2
+ C     N    CT     C    9      0.00    0.544     3
+ C     N    CT     C    9      0.00    0.08      4
+
+ C     N    CT     C    9     90.00    0.0       1
+ C     N    CT     C    9     90.00    0.40      2
+
+ C     N    C1     C    9      0.00    0.084     1
+ C     N    C1     C    9      0.00    0.381     2
+ C     N    C1     C    9      0.00   -0.020     3
+ C     N    C1     C    9      0.00    0.077     4
+
+ N    C1     C     N    9      0.00   -0.644     1
+ N    C1     C     N    9      0.00   -1.598     2
+ N    C1     C     N    9      0.00   -0.399     3
+ N    C1     C     N    9      0.00    0.075     4
+
+H1    C1     C     O    9      0.00    0.80      1
+H1    C1     C     O    9      0.00    0.0       2
+H1    C1     C     O    9      0.00   -0.08      3
+
+ X    C1    N3     X    9      0.00    0.0       1
+ X    C1    N3     X    9      0.00    0.156     2
+
+ X    C1     N     X    9      0.00    0.0       1
+
+ X    C1     C     X    9      0.00    0.0       1
