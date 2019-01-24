@@ -43,6 +43,8 @@ CT    CT    CT    CT    9      0.00    0.15      3
  C     N    CT     C    9     90.00    0.0       1
  C     N    CT     C    9     90.00    0.40      2
 
+ N    CT     C     N    9    160.89    0.65      1
+
  ; specific AA torsion overrides
  ; C1 = Cα  in Gly
  ; C3 = Cδ  in Ile
@@ -51,19 +53,21 @@ CT    CT    CT    CT    9      0.00    0.15      3
  ; C6 = Cγ  in Asp
  ; C8 = Cβ  in Ser, Thr, Val
  ; C9 = Cγ  in Met, Gln, Glu, Arg, Lys
- ; CC = Cγ  in HIS
  ; C& = Cγ  in TRP
- ; CW = Cδ1 in TRP
- ; CA = Cγ  in TYR
- ; CC = Cγ  in HIX
  ; O3 = Oγ  in Thr
+ ; CC = Cγ  in HIS (as in starting ff)
+ ; CW = Cδ1 in TRP (as in starting ff)
+ ; CA = Cγ  in TYR (as in starting ff)
+ ; CC = Cγ  in HIX (as in starting ff)
 
+ ; TRP overrides
  N    CT    CT    C&    9      0.00    0.0       1
 
  C    CT    CT    C&    9      0.00    0.29      1
 
 CT    CT    C&    CW    9      0.00    1.2       1
 
+; Met, Gln, Glu, Arg, Lys overrides
  N    CT    CT    C9    9      0.00    0.1       1
 
  C    CT    CT    C9    9      0.00    0.3       1
@@ -78,6 +82,7 @@ CT    C9     C     O    9      0.00   -0.6       2
 
 CT    CT    C9    CT    9      0.00    0.0       1
 
+; Ser, Thr, Val overrides
 CT    C8    OH    HO    9      0.00    0.75      1
 CT    C8    OH    HO    9      0.00    0.06      2
 CT    C8    OH    HO    9      0.00    0.20      3
@@ -107,17 +112,18 @@ H1    C8    O3    HO    9      0.00    0.1       3
  X    CT    C8     X    9      0.00    0.0       2
  X    CT    C8     X    9      0.00    0.16      3
 
+C8    CT     N     C    9      0.00    2.00      1
+C8    CT     N     C    9      0.00    2.00      2
+C8    CT     N     C    9      0.00    0.40      3
+
+C8    CT     C     N    9      0.00    0.20      1
+C8    CT     C     N    9      0.00    0.20      2
+C8    CT     C     N    9      0.00    0.40      3
+
+ ; LEU ovverides
 CT    CT    C4    CT    9      0.00    0.0       1
 CT    CT    C4    CT    9      0.00    0.0       2
 CT    CT    C4    CT    9      0.00    0.15      3
-
-CT    CT    CT    C3    9      0.00    0.0       1
-CT    CT    CT    C3    9      0.00    0.0       2
-CT    CT    CT    C3    9      0.00    0.15      3
-
-HC    CT    CT    C3    9      0.00    0.0       1
-HC    CT    CT    C3    9      0.00    0.0       2
-HC    CT    CT    C3    9      0.00    0.16      3
 
 HC    CT    CT    C4    9      0.00    0.0       1
 HC    CT    CT    C4    9      0.00    0.0       2
@@ -139,6 +145,19 @@ HC    CT    C4    CT    9      0.00    0.0       1
 HC    CT    C4    CT    9      0.00    0.0       2
 HC    CT    C4    CT    9      0.00    0.16      3
 
+ C    CT    CT    C4    9      0.00    0.5714    1
+ C    CT    CT    C4    9      0.00   -0.3583    2
+ C    CT    CT    C4    9      0.00    0.1348    3
+
+ ; ILE overrides
+CT    CT    CT    C3    9      0.00    0.0       1
+CT    CT    CT    C3    9      0.00    0.0       2
+CT    CT    CT    C3    9      0.00    0.15      3
+
+HC    CT    CT    C3    9      0.00    0.0       1
+HC    CT    CT    C3    9      0.00    0.0       2
+HC    CT    CT    C3    9      0.00    0.16      3
+
 HC    C3    CT    CT    9      0.00    0.0       1
 HC    C3    CT    CT    9      0.00    0.0       2
 HC    C3    CT    CT    9      0.00    0.16      3
@@ -147,22 +166,19 @@ HC    C3    CT    HC    9      0.00    0.0       1
 HC    C3    CT    HC    9      0.00    0.0       2
 HC    C3    CT    HC    9      0.00    0.15      3
 
-HC    CT    C5     O    9      0.00    0.8       1
-HC    CT    C5     O    9      0.00    0.0       2
-HC    CT    C5     O    9      0.00   -0.08      3
-
- H     N    C5     O    9      0.00    2.0       1
- H     N    C5     O    9      0.00   -2.5       2
-
  N    CT    CT    C3    9      0.00    0.1951    1
  N    CT    CT    C3    9      0.00   -0.8459    2
 
 N3    CT    CT    C3    9      0.00    0.1951    1
 N3    CT    CT    C3    9      0.00   -0.8459    2
 
- C    CT    CT    C4    9      0.00    0.5714    1
- C    CT    CT    C4    9      0.00   -0.3583    2
- C    CT    CT    C4    9      0.00    0.1348    3
+ ; ASN overrides
+HC    CT    C5     O    9      0.00    0.8       1
+HC    CT    C5     O    9      0.00    0.0       2
+HC    CT    C5     O    9      0.00   -0.08      3
+
+ H     N    C5     O    9      0.00    2.0       1
+ H     N    C5     O    9      0.00   -2.5       2
 
  N    C5    CT    CT    9      0.00   -1.0463    1
  N    C5    CT    CT    9      0.00   -0.181     2
@@ -180,14 +196,9 @@ N3    CT    CT    C3    9      0.00   -0.8459    2
  C    CT    CT    C5    9      0.00    0.1042    5
  C    CT    CT    C5    9      0.00   -0.1007    6
 
-C8    CT     N     C    9      0.00    2.00      1
-C8    CT     N     C    9      0.00    2.00      2
-C8    CT     N     C    9      0.00    0.40      3
+CT    CT    C5     O    9      0.00   -1.0       1
 
-C8    CT     C     N    9      0.00    0.20      1
-C8    CT     C     N    9      0.00    0.20      2
-C8    CT     C     N    9      0.00    0.40      3
-
+ ; ASP overrides
  N    CT    CT    C6    9      0.00   -2.881     1
  N    CT    CT    C6    9      0.00   -1.211     2
  N    CT    CT    C6    9      0.00    0.062     3
@@ -209,10 +220,7 @@ CT    CT    C6    O2    9      0.00   -0.186     4
 CT    CT    C6    O2    9      0.00    0.0       5
 CT    CT    C6    O2    9      0.00   -0.354     6
 
-CT    CT    C5     O    9      0.00   -1.0       1
-
- N    CT     C     N    9    160.89    0.65      1
-
+ ; GLY overrides
  C     N    C1     C    9      0.00    0.084     1
  C     N    C1     C    9      0.00    0.381     2
  C     N    C1     C    9      0.00   -0.020     3
