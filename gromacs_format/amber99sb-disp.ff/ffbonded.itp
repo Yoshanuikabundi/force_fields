@@ -672,126 +672,126 @@ X   X   C   OC       4      180.00    43.93200     2  ; JCC,7,(1986),230 ; (a99s
 #define torsion_ASN_CA_CB_CG_ND2_mult6         0.0        -0.443504        6  ; Proteins 78, 1950 (2010)
 
 ; Overrides from A99sb-disp
-#define torsion_N_CT_CT_C9              9        0.00     0.1      1
-#define torsion_C_CT_CT_C9              9        0.00     0.3      1
-#define torsion_CT_CT_C9_S              9        0.00     0.0      1
-#define torsion_CT_C9_C_O2_mult1        9        0.00     0.0      1
-#define torsion_CT_C9_C_O2_mult2        9        0.00     -0.6     2
-#define torsion_CT_C9_C_O_mult1         9        0.00     0.0      1
-#define torsion_CT_C9_C_O_mult2         9        0.00     -0.6     2
-#define torsion_CT_CT_C9_CT             9        0.00     0.0      1
-#define torsion_CT_C8_OH_HO_mult1       9        0.00     0.75     1
-#define torsion_CT_C8_OH_HO_mult2       9        0.00     0.06     2
-#define torsion_CT_C8_OH_HO_mult3       9        0.00     0.20     3
-#define torsion_CT_C8_O3_HO_mult1       9        0.00     0.086    1
-#define torsion_CT_C8_O3_HO_mult2       9        0.00     -0.163   2
-#define torsion_CT_C8_O3_HO_mult3       9        0.00     0.1      3
-#define torsion_H1_C8_O3_HO_mult1       9        0.00     0.0      1
-#define torsion_H1_C8_O3_HO_mult2       9        0.00     0.0      2
-#define torsion_H1_C8_O3_HO_mult3       9        0.00     0.1      3
-#define torsion_N_CT_C8_CT_mult1        9        0.00     0.06     1
-#define torsion_N_CT_C8_CT_mult2        9        0.00     -0.5     2
-#define torsion_N_CT_C8_CT_mult3        9        0.00     0.15     3
-#define torsion_N_CT_C8_CT_mult4        9        0.00     -0.065   4
-#define torsion_N_CT_C8_OH              9        0.00     -0.25    1
-#define torsion_C_CT_C8_OH              9        0.00     -0.90    1
-#define torsion_N_CT_C8_O3              9        0.00     -0.08    1
-#define torsion_C_CT_C8_O3              9        0.00     -1.00    1
-#define torsion_X_CT_C8_X_mult1         9        0.00     0.0      1
-#define torsion_X_CT_C8_X_mult2         9        0.00     0.0      2
-#define torsion_X_CT_C8_X_mult3         9        0.00     0.16     3
-#define torsion_C8_CT_N_C_mult1         9        0.00     2.00     1
-#define torsion_C8_CT_N_C_mult2         9        0.00     2.00     2
-#define torsion_C8_CT_N_C_mult3         9        0.00     0.40     3
-#define torsion_C8_CT_C_N_mult1         9        0.00     0.20     1
-#define torsion_C8_CT_C_N_mult2         9        0.00     0.20     2
-#define torsion_C8_CT_C_N_mult3         9        0.00     0.40     3
-#define torsion_CT_CT_C4_CT_mult1       9        0.00     0.0      1
-#define torsion_CT_CT_C4_CT_mult2       9        0.00     0.0      2
-#define torsion_CT_CT_C4_CT_mult3       9        0.00     0.15     3
-#define torsion_HC_CT_CT_C4_mult1       9        0.00     0.0      1
-#define torsion_HC_CT_CT_C4_mult2       9        0.00     0.0      2
-#define torsion_HC_CT_CT_C4_mult3       9        0.00     0.16     3
-#define torsion_CT_C4_CT_CT_mult1       9        0.00     0.0      1
-#define torsion_CT_C4_CT_CT_mult2       9        0.00     0.0      2
-#define torsion_CT_C4_CT_CT_mult3       9        0.00     0.15     3
-#define torsion_HC_C4_CT_CT_mult1       9        0.00     0.0      1
-#define torsion_HC_C4_CT_CT_mult2       9        0.00     0.0      2
-#define torsion_HC_C4_CT_CT_mult3       9        0.00     0.16     3
-#define torsion_HC_C4_CT_HC_mult1       9        0.00     0.0      1
-#define torsion_HC_C4_CT_HC_mult2       9        0.00     0.0      2
-#define torsion_HC_C4_CT_HC_mult3       9        0.00     0.15     3
-#define torsion_HC_CT_C4_CT_mult1       9        0.00     0.0      1
-#define torsion_HC_CT_C4_CT_mult2       9        0.00     0.0      2
-#define torsion_HC_CT_C4_CT_mult3       9        0.00     0.16     3
-#define torsion_C_CT_CT_C4_mult1        9        0.00     0.5714   1
-#define torsion_C_CT_CT_C4_mult2        9        0.00     -0.3583  2
-#define torsion_C_CT_CT_C4_mult3        9        0.00     0.1348   3
-#define torsion_CT_CT_CT_C3_mult1       9        0.00     0.0      1
-#define torsion_CT_CT_CT_C3_mult2       9        0.00     0.0      2
-#define torsion_CT_CT_CT_C3_mult3       9        0.00     0.15     3
-#define torsion_HC_CT_CT_C3_mult1       9        0.00     0.0      1
-#define torsion_HC_CT_CT_C3_mult2       9        0.00     0.0      2
-#define torsion_HC_CT_CT_C3_mult3       9        0.00     0.16     3
-#define torsion_HC_C3_CT_CT_mult1       9        0.00     0.0      1
-#define torsion_HC_C3_CT_CT_mult2       9        0.00     0.0      2
-#define torsion_HC_C3_CT_CT_mult3       9        0.00     0.16     3
-#define torsion_HC_C3_CT_HC_mult1       9        0.00     0.0      1
-#define torsion_HC_C3_CT_HC_mult2       9        0.00     0.0      2
-#define torsion_HC_C3_CT_HC_mult3       9        0.00     0.15     3
-#define torsion_N_CT_CT_C3_mult1        9        0.00     0.1951   1
-#define torsion_N_CT_CT_C3_mult2        9        0.00     -0.8459  2
-#define torsion_N3_CT_CT_C3_mult1       9        0.00     0.1951   1
-#define torsion_N3_CT_CT_C3_mult2       9        0.00     -0.8459  2
-#define torsion_HC_CT_C5_O_mult1        9        0.00     0.8      1
-#define torsion_HC_CT_C5_O_mult2        9        0.00     0.0      2
-#define torsion_HC_CT_C5_O_mult3        9        0.00     -0.08    3
-#define torsion_H_N_C5_O_mult1          9        0.00     2.0      1
-#define torsion_H_N_C5_O_mult2          9        0.00     -2.5     2
-#define torsion_N_C5_CT_CT_mult1        9        0.00     -1.0463  1
-#define torsion_N_C5_CT_CT_mult2        9        0.00     -0.181   2
-#define torsion_N_C5_CT_CT_mult3        9        0.00     -0.0354  3
-#define torsion_N_C5_CT_CT_mult4        9        0.00     0.1003   4
-#define torsion_N_C5_CT_CT_mult5        9        0.00     0.1298   5
-#define torsion_N_C5_CT_CT_mult6        9        0.00     -0.1061  6
-#define torsion_N_CT_CT_C5              9        0.00     -0.63    1
-#define torsion_C_CT_CT_C5_mult1        9        0.00     0.1707   1
-#define torsion_C_CT_CT_C5_mult2        9        0.00     -0.5957  2
-#define torsion_C_CT_CT_C5_mult3        9        0.00     0.1185   3
-#define torsion_C_CT_CT_C5_mult4        9        0.00     -0.4172  4
-#define torsion_C_CT_CT_C5_mult5        9        0.00     0.1042   5
-#define torsion_C_CT_CT_C5_mult6        9        0.00     -0.1007  6
-#define torsion_CT_CT_C5_O              9        0.00     -1.0     1
-#define torsion_N_CT_CT_C6_mult1        9        0.00     -2.881   1
-#define torsion_N_CT_CT_C6_mult2        9        0.00     -1.211   2
-#define torsion_N_CT_CT_C6_mult3        9        0.00     0.062    3
-#define torsion_N_CT_CT_C6_mult4        9        0.00     0.245    4
-#define torsion_N_CT_CT_C6_mult5        9        0.00     0.131    5
-#define torsion_N_CT_CT_C6_mult6        9        0.00     -0.142   6
-#define torsion_N3_CT_CT_C6_mult1       9        0.00     -2.6352  1
-#define torsion_N3_CT_CT_C6_mult2       9        0.00     -1.1903  2
-#define torsion_N3_CT_CT_C6_mult3       9        0.00     -0.068   3
-#define torsion_N3_CT_CT_C6_mult4       9        0.00     0.4227   4
-#define torsion_N3_CT_CT_C6_mult5       9        0.00     0.1042   5
-#define torsion_N3_CT_CT_C6_mult6       9        0.00     -0.2127  6
-#define torsion_CT_CT_C6_O2_mult1       9        0.00     0.0      1
-#define torsion_CT_CT_C6_O2_mult2       9        0.00     -0.873   2
-#define torsion_CT_CT_C6_O2_mult3       9        0.00     0.0      3
-#define torsion_CT_CT_C6_O2_mult4       9        0.00     -0.186   4
-#define torsion_CT_CT_C6_O2_mult5       9        0.00     0.0      5
-#define torsion_CT_CT_C6_O2_mult6       9        0.00     -0.354   6
-#define torsion_C_N_C1_C_mult1          9        0.00     0.084    1
-#define torsion_C_N_C1_C_mult2          9        0.00     0.381    2
-#define torsion_C_N_C1_C_mult3          9        0.00     -0.020   3
-#define torsion_C_N_C1_C_mult4          9        0.00     0.077    4
-#define torsion_N_C1_C_N_mult1          9        0.00     -0.644   1
-#define torsion_N_C1_C_N_mult2          9        0.00     -1.598   2
-#define torsion_N_C1_C_N_mult3          9        0.00     -0.399   3
-#define torsion_N_C1_C_N_mult4          9        0.00     0.075    4
-#define torsion_H1_C1_C_O_mult1         9        0.00     0.80     1
-#define torsion_H1_C1_C_O_mult2         9        0.00     0.0      2
-#define torsion_H1_C1_C_O_mult3         9        0.00     -0.08    3
-#define torsion_X_C1_N3_X_mult1         9        0.00     0.0      1
-#define torsion_X_C1_N3_X_mult2         9        0.00     0.156    2
-#define torsion_X_C1_N_X                9        0.00     0.0      1
-#define torsion_X_C1_C_X                9        0.00     0.0      1
+#define torsion_N_CT_CT_C9              0.00     0.1      1
+#define torsion_C_CT_CT_C9              0.00     0.3      1
+#define torsion_CT_CT_C9_S              0.00     0.0      1
+#define torsion_CT_C9_C_O2_mult1        0.00     0.0      1
+#define torsion_CT_C9_C_O2_mult2        0.00     -0.6     2
+#define torsion_CT_C9_C_O_mult1         0.00     0.0      1
+#define torsion_CT_C9_C_O_mult2         0.00     -0.6     2
+#define torsion_CT_CT_C9_CT             0.00     0.0      1
+#define torsion_CT_C8_OH_HO_mult1       0.00     0.75     1
+#define torsion_CT_C8_OH_HO_mult2       0.00     0.06     2
+#define torsion_CT_C8_OH_HO_mult3       0.00     0.20     3
+#define torsion_CT_C8_O3_HO_mult1       0.00     0.086    1
+#define torsion_CT_C8_O3_HO_mult2       0.00     -0.163   2
+#define torsion_CT_C8_O3_HO_mult3       0.00     0.1      3
+#define torsion_H1_C8_O3_HO_mult1       0.00     0.0      1
+#define torsion_H1_C8_O3_HO_mult2       0.00     0.0      2
+#define torsion_H1_C8_O3_HO_mult3       0.00     0.1      3
+#define torsion_N_CT_C8_CT_mult1        0.00     0.06     1
+#define torsion_N_CT_C8_CT_mult2        0.00     -0.5     2
+#define torsion_N_CT_C8_CT_mult3        0.00     0.15     3
+#define torsion_N_CT_C8_CT_mult4        0.00     -0.065   4
+#define torsion_N_CT_C8_OH              0.00     -0.25    1
+#define torsion_C_CT_C8_OH              0.00     -0.90    1
+#define torsion_N_CT_C8_O3              0.00     -0.08    1
+#define torsion_C_CT_C8_O3              0.00     -1.00    1
+#define torsion_X_CT_C8_X_mult1         0.00     0.0      1
+#define torsion_X_CT_C8_X_mult2         0.00     0.0      2
+#define torsion_X_CT_C8_X_mult3         0.00     0.16     3
+#define torsion_C8_CT_N_C_mult1         0.00     2.00     1
+#define torsion_C8_CT_N_C_mult2         0.00     2.00     2
+#define torsion_C8_CT_N_C_mult3         0.00     0.40     3
+#define torsion_C8_CT_C_N_mult1         0.00     0.20     1
+#define torsion_C8_CT_C_N_mult2         0.00     0.20     2
+#define torsion_C8_CT_C_N_mult3         0.00     0.40     3
+#define torsion_CT_CT_C4_CT_mult1       0.00     0.0      1
+#define torsion_CT_CT_C4_CT_mult2       0.00     0.0      2
+#define torsion_CT_CT_C4_CT_mult3       0.00     0.15     3
+#define torsion_HC_CT_CT_C4_mult1       0.00     0.0      1
+#define torsion_HC_CT_CT_C4_mult2       0.00     0.0      2
+#define torsion_HC_CT_CT_C4_mult3       0.00     0.16     3
+#define torsion_CT_C4_CT_CT_mult1       0.00     0.0      1
+#define torsion_CT_C4_CT_CT_mult2       0.00     0.0      2
+#define torsion_CT_C4_CT_CT_mult3       0.00     0.15     3
+#define torsion_HC_C4_CT_CT_mult1       0.00     0.0      1
+#define torsion_HC_C4_CT_CT_mult2       0.00     0.0      2
+#define torsion_HC_C4_CT_CT_mult3       0.00     0.16     3
+#define torsion_HC_C4_CT_HC_mult1       0.00     0.0      1
+#define torsion_HC_C4_CT_HC_mult2       0.00     0.0      2
+#define torsion_HC_C4_CT_HC_mult3       0.00     0.15     3
+#define torsion_HC_CT_C4_CT_mult1       0.00     0.0      1
+#define torsion_HC_CT_C4_CT_mult2       0.00     0.0      2
+#define torsion_HC_CT_C4_CT_mult3       0.00     0.16     3
+#define torsion_C_CT_CT_C4_mult1        0.00     0.5714   1
+#define torsion_C_CT_CT_C4_mult2        0.00     -0.3583  2
+#define torsion_C_CT_CT_C4_mult3        0.00     0.1348   3
+#define torsion_CT_CT_CT_C3_mult1       0.00     0.0      1
+#define torsion_CT_CT_CT_C3_mult2       0.00     0.0      2
+#define torsion_CT_CT_CT_C3_mult3       0.00     0.15     3
+#define torsion_HC_CT_CT_C3_mult1       0.00     0.0      1
+#define torsion_HC_CT_CT_C3_mult2       0.00     0.0      2
+#define torsion_HC_CT_CT_C3_mult3       0.00     0.16     3
+#define torsion_HC_C3_CT_CT_mult1       0.00     0.0      1
+#define torsion_HC_C3_CT_CT_mult2       0.00     0.0      2
+#define torsion_HC_C3_CT_CT_mult3       0.00     0.16     3
+#define torsion_HC_C3_CT_HC_mult1       0.00     0.0      1
+#define torsion_HC_C3_CT_HC_mult2       0.00     0.0      2
+#define torsion_HC_C3_CT_HC_mult3       0.00     0.15     3
+#define torsion_N_CT_CT_C3_mult1        0.00     0.1951   1
+#define torsion_N_CT_CT_C3_mult2        0.00     -0.8459  2
+#define torsion_N3_CT_CT_C3_mult1       0.00     0.1951   1
+#define torsion_N3_CT_CT_C3_mult2       0.00     -0.8459  2
+#define torsion_HC_CT_C5_O_mult1        0.00     0.8      1
+#define torsion_HC_CT_C5_O_mult2        0.00     0.0      2
+#define torsion_HC_CT_C5_O_mult3        0.00     -0.08    3
+#define torsion_H_N_C5_O_mult1          0.00     2.0      1
+#define torsion_H_N_C5_O_mult2          0.00     -2.5     2
+#define torsion_N_C5_CT_CT_mult1        0.00     -1.0463  1
+#define torsion_N_C5_CT_CT_mult2        0.00     -0.181   2
+#define torsion_N_C5_CT_CT_mult3        0.00     -0.0354  3
+#define torsion_N_C5_CT_CT_mult4        0.00     0.1003   4
+#define torsion_N_C5_CT_CT_mult5        0.00     0.1298   5
+#define torsion_N_C5_CT_CT_mult6        0.00     -0.1061  6
+#define torsion_N_CT_CT_C5              0.00     -0.63    1
+#define torsion_C_CT_CT_C5_mult1        0.00     0.1707   1
+#define torsion_C_CT_CT_C5_mult2        0.00     -0.5957  2
+#define torsion_C_CT_CT_C5_mult3        0.00     0.1185   3
+#define torsion_C_CT_CT_C5_mult4        0.00     -0.4172  4
+#define torsion_C_CT_CT_C5_mult5        0.00     0.1042   5
+#define torsion_C_CT_CT_C5_mult6        0.00     -0.1007  6
+#define torsion_CT_CT_C5_O              0.00     -1.0     1
+#define torsion_N_CT_CT_C6_mult1        0.00     -2.881   1
+#define torsion_N_CT_CT_C6_mult2        0.00     -1.211   2
+#define torsion_N_CT_CT_C6_mult3        0.00     0.062    3
+#define torsion_N_CT_CT_C6_mult4        0.00     0.245    4
+#define torsion_N_CT_CT_C6_mult5        0.00     0.131    5
+#define torsion_N_CT_CT_C6_mult6        0.00     -0.142   6
+#define torsion_N3_CT_CT_C6_mult1       0.00     -2.6352  1
+#define torsion_N3_CT_CT_C6_mult2       0.00     -1.1903  2
+#define torsion_N3_CT_CT_C6_mult3       0.00     -0.068   3
+#define torsion_N3_CT_CT_C6_mult4       0.00     0.4227   4
+#define torsion_N3_CT_CT_C6_mult5       0.00     0.1042   5
+#define torsion_N3_CT_CT_C6_mult6       0.00     -0.2127  6
+#define torsion_CT_CT_C6_O2_mult1       0.00     0.0      1
+#define torsion_CT_CT_C6_O2_mult2       0.00     -0.873   2
+#define torsion_CT_CT_C6_O2_mult3       0.00     0.0      3
+#define torsion_CT_CT_C6_O2_mult4       0.00     -0.186   4
+#define torsion_CT_CT_C6_O2_mult5       0.00     0.0      5
+#define torsion_CT_CT_C6_O2_mult6       0.00     -0.354   6
+#define torsion_C_N_C1_C_mult1          0.00     0.084    1
+#define torsion_C_N_C1_C_mult2          0.00     0.381    2
+#define torsion_C_N_C1_C_mult3          0.00     -0.020   3
+#define torsion_C_N_C1_C_mult4          0.00     0.077    4
+#define torsion_N_C1_C_N_mult1          0.00     -0.644   1
+#define torsion_N_C1_C_N_mult2          0.00     -1.598   2
+#define torsion_N_C1_C_N_mult3          0.00     -0.399   3
+#define torsion_N_C1_C_N_mult4          0.00     0.075    4
+#define torsion_H1_C1_C_O_mult1         0.00     0.80     1
+#define torsion_H1_C1_C_O_mult2         0.00     0.0      2
+#define torsion_H1_C1_C_O_mult3         0.00     -0.08    3
+#define torsion_X_C1_N3_X_mult1         0.00     0.0      1
+#define torsion_X_C1_N3_X_mult2         0.00     0.156    2
+#define torsion_X_C1_N_X                0.00     0.0      1
+#define torsion_X_C1_C_X                0.00     0.0      1
