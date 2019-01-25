@@ -1,5 +1,5 @@
 [ implicit_genborn_params ]
-;   Atom type   sar     st      pi      gbr     hct
+;   Atomtype    sar     st      pi      gbr     hct
     NH1         0.155   1       1.028   0.17063 0.79    ; N
     N           0.155   1       1       0.155   0.79    ; Proline backbone N
     NP          0.155   1       1       0.155   0.79    ; Proline backbone N for Proline N-terminus

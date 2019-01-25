@@ -2,7 +2,7 @@
 ;   molname nrexcl
     SOL     2
     [ atoms ]
-    ;   number  type    res nr  res     atom    chg nr  chg
+    ;   number  type    resnr   res     atom    chgnr   chg
     #ifdef  _FF_CHARMM
         1       OWT3    1       SOL     OW      1       -0.834
         2       HWT3    1       SOL     HW1     1       0.417

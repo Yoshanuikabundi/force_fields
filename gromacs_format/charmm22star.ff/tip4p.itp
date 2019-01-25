@@ -2,7 +2,7 @@
 ;   molname nrexcl
     SOL     2
     [ atoms ]
-    ;   number  type    res nr  res     atom    chg nr  chg
+    ;   number  type    resnr   res     atom    chgnr   chg
         1       OWT4    1       SOL     OW      1       0.0
         2       HWT4    1       SOL     HW1     1       0.52
         3       HWT4    1       SOL     HW2     1       0.52
@@ -39,4 +39,3 @@
 ; const = distance (OD) / [ cos (angle(DOH)) * distance (OH) ]
 ; 0.015 nm / [ cos (52.26 deg) * 0.09572 nm ]
 ; Vsite pos x4 = x1 + a*(x2-x1) + b*(x3-x1)
-

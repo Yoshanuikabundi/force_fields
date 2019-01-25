@@ -2,7 +2,7 @@
 ;   molname nrexcl
     SOL     2
     [ atoms ]
-    ;   number  type    res nr  res     atom    chg nr  chg     mass
+    ;   number  type    resnr   res     atom    chgnr   chg     mass
         1       OWT5    1       SOL     OW      1       0       15.99940
         2       HWT5    1       SOL     HW1     1       0.241   1.00800
         3       HWT5    1       SOL     HW2     1       0.241   1.00800
