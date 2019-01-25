@@ -1581,3 +1581,43 @@
 [ ZN2 ]
     [ atoms ]
         ZN      ZN       2.00    0
+
+
+
+
+[ ACE ] ; terminal residue, provided by Mark Abraham for C36m
+ [ atoms ]
+       CH3     CT3     -0.270  1
+       HH31    HA3     0.090   1
+       HH32    HA3     0.090   1
+       HH33    HA3     0.090   1
+       C       C       0.510   2
+       O       O       -0.510  2
+ [ bonds ]
+       C       CH3
+       C       +N
+       CH3     HH31
+       CH3     HH32
+       CH3     HH33
+       O       C
+ [ impropers ]
+       C       CH3     +N      O
+
+[ NME ] ; terminal residue, provided by Mark Abraham for C36m
+ [ atoms ]
+       N       NH1     -0.470  1
+       HN      H       0.310   1
+       CH3     CT3     -0.110  1
+       HH31    HA3     0.090   1
+       HH32    HA3     0.090   1
+       HH33    HA3     0.090   1
+ [ bonds ]
+       -C      N
+       N       HN
+       N       CH3
+       CH3     HH31
+       CH3     HH32
+       CH3     HH33
+ [ impropers ]
+       N       -C      CH3     HN
+       -C      CH3     N       -O
