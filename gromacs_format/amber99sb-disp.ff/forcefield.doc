@@ -1,4 +1,4 @@
-The AMBER99SB-disp forcefield (Robustelli, Piana and Shaw, PNAS, 115 (21) E4758-E4766, 2018)
+The AMBER99SB-disp forcefield (UNTESTED IMPLEMENTATION) (Robustelli, Piana and Shaw, PNAS, 115 (21) E4758-E4766, 2018)
 derived from
 AMBER99SB* modification of ff99SB (Best and Hummer, J. Phys. Chem. B, 113, 9004-9015, 2009)
 combined with
