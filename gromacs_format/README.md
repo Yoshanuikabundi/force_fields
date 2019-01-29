@@ -12,19 +12,19 @@ I check it periodically and update my copy of it accordingly.
 ## Some details:
 
 ### My additions:
-**amber99sb-disp:** Amber ff99SB-disp (UNTESTED IMPLEMENTATION based on amber99sb-star-ildn-q below) (Robustelli, Piana and Shaw, PNAS, 115 (21) E4758-E4766, 2018)
-**charmm22star:** Charmm 22* (Biophys J. 2011 May 4;100(9):L47-9. doi: 10.1016/j.bpj.2011.03.051.)
-**charmm36m:** Charmm 36m (Mirror of http://mackerell.umaryland.edu/charmm_ff.shtml)
+**amber99sb-disp:** Amber ff99SB-disp (UNTESTED IMPLEMENTATION based on amber99sb-star-ildn-q below) (Robustelli, Piana and Shaw, PNAS, 115 (21) E4758-E4766, 2018)  
+**charmm22star:** Charmm 22* (Biophys J. 2011 May 4;100(9):L47-9. doi: 10.1016/j.bpj.2011.03.051.)  
+**charmm36m:** Charmm 36m (Mirror of http://mackerell.umaryland.edu/charmm_ff.shtml)  
 
 ### From bestlab:
-**amber03-star:** amber ff03* (Best, Hummer, 2009)
-**amber99sb-star:** amber ff99SB* (Best, Hummer, 2009)
-**amber99sb-star-ildn:** amber ff99SB*-ILDN (Best, Hummer, 2009 and Lindorff-Larsen et al, Proteins, 2011 for ILDN part)
-**amber99sb-star-ildn-q:** amber ff99SB*-ILDN-q (same as above, but with backbone charge mods as described in Best, De Sancho, Mittal, Biophys. J. 2012)
-**amber03w:** amber ff03w (Best, Mittal, 2010)
-**amber03ws:** amber ff03ws (Best, Zheng, Mittal, 2014)
-**amber99sbw:** amber ff99SBw (ref?)
-**amber99sbws:** amber ff99SBws (Best, Zheng, Mittal, 2014 -- see the SI)
+**amber03-star:** amber ff03* (Best, Hummer, 2009)  
+**amber99sb-star:** amber ff99SB* (Best, Hummer, 2009)  
+**amber99sb-star-ildn:** amber ff99SB*-ILDN (Best, Hummer, 2009 and Lindorff-Larsen et al, Proteins, 2011 for ILDN part)  
+**amber99sb-star-ildn-q:** amber ff99SB*-ILDN-q (same as above, but with backbone charge mods as described in Best, De Sancho, Mittal, Biophys. J. 2012)  
+**amber03w:** amber ff03w (Best, Mittal, 2010)  
+**amber03ws:** amber ff03ws (Best, Zheng, Mittal, 2014)  
+**amber99sbw:** amber ff99SBw (ref?)  
+**amber99sbws:** amber ff99SBws (Best, Zheng, Mittal, 2014 -- see the SI)  
 
 
 **denaturants-amber03ws:** urea and gdmcl force fields (Zheng, Best, JCTC, 2015)
